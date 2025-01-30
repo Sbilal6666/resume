@@ -1,0 +1,665 @@
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: black; */
+}
+.fa-solid{
+    display: none;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+.nav-part-1 {
+    width: 290px;
+}
+.nav-part-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.nav-part-4{
+    display: none;
+}
+
+nav button {
+    width: 140px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    bottom: 430px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to right, #8F61FA, #1A88FB, #34DBB7);
+}
+
+.medicare-section{
+    position: relative;
+    text-align: center;
+    top: 240px;
+}
+.medicare-section h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.medicare-section h1{
+    padding-bottom: 80px;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 81px;
+    color: #0D43E3;
+}
+#icon-1{
+    position: relative;
+    bottom: 360px;
+    left: 450px;
+}
+#icon-2{
+    position: relative;
+    bottom: 360px;
+    left: 1120px;
+}
+#icon-3{
+    position: relative;
+    top: 198px;
+    left: 340px;
+}
+#icon-4{
+    position: relative;
+    top: 198px;
+    left: 1010px;
+}
+#icon-5{
+    position: relative;
+    bottom: 140px;
+    left: 950px;
+}
+#icon-6{
+    position: relative;
+    bottom: 140px;
+    left: 170px;
+}
+#p-2{
+    position: relative;
+    line-height: 30px;
+    bottom: 230px;
+    text-align: end;
+    color: #272727;
+    left: 220px;
+    width: 356px;
+    height: 94px;
+
+}
+#p-3{
+    position: relative;
+    line-height: 30px;
+    bottom: 150px;
+    text-align: end;
+    color: #272727;
+    left: 220px;
+    width: 356px;
+    height: 94px;
+    
+}
+#p-4{
+    position: relative;
+    line-height: 30px;
+    bottom: 250px;
+    text-align:start;
+    color: #272727;
+    left: 1050px;
+    width: 356px;
+    height: 94px;
+    
+}
+#p-5{
+    position: relative;
+    line-height: 30px;
+    bottom: 500px;
+    text-align:start;
+    color: #272727;
+    left: 1050px;
+    width: 356px;
+    height: 94px;
+    
+}
+#p-6{
+    position: relative;
+    line-height: 30px;
+    bottom: 820px;
+    text-align:start;
+    color: #272727;
+    left: 1050px;
+    width: 356px;
+    height: 94px;
+    
+}
+#p-1{
+    position: relative;
+    line-height: 30px;
+    bottom: 350px;
+    text-align: end;
+    color: #272727;
+    left: 220px;
+    width: 356px;
+    height: 94px;
+    
+}
+#Icon-center{
+    position: absolute;
+    left: 700px;
+    top: 1460px;
+}
+                                                 /* <!-- mobile app section --> */
+.mobile-heading{
+    text-align: center;
+    margin-top: 200px;
+}
+.mobile-heading h3{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.mobile-heading h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 81px;
+    color: #0D43E3;
+}
+
+                                                 /* <!-- cards section --> */
+.cards{
+    height: 750px;
+    background-color: #EAFFFC;
+}
+.cards-heading{
+    text-align: center;
+    padding-top: 100px;
+}
+.cards-heading h3{
+    font-size: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: -20px;
+}
+.cards-heading h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #0D42E3;
+}
+.cards-heading h4{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.cards-section{
+    padding: 0 10%;
+}
+.card-line-1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-line-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.cards-section .card-1{
+    width: 290px;
+    height: 240px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+                                          /* <!-- doctor info section --> */
+.doctor-info{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.doctor-info-heading{
+    padding-top: 60px;
+}
+.doctor-info-heading h3{
+    font-size: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.doctor-info-heading h1{
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #0D42E3;
+}
+.doctor-info-heading p{
+    font-size: 16px;
+    position: relative;
+    top: 22px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.doctor-part-1{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    gap: 20px;
+    padding-top: 45px;
+}
+.infor-heading{
+    padding-top: 20px;
+}
+.infor-heading p{
+    font-size: 16px;
+    position: relative;
+    top: 12px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.infor-heading h3{
+    color: #7E207F;
+    font-size: 24px;
+    font-weight: 700;
+}
+                                           /* <!-- doctor cards section --> */
+.doctor-section{
+    margin-top: 80px;
+    height: 700px;
+    background-color:#EAFFFC;
+    position: relative;
+    z-index: 1;
+}
+.doctor-card-heading{
+    text-align: center;
+    padding-top: 90px;
+}
+.doctor-card-heading h3{
+    font-size: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.doctor-card-heading h1{
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    top: 12px;
+    color: #0D42E3;
+}
+.doctor-card-heading p{
+    font-size: 16px;
+    position: relative;
+    top: 52px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.doctor-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+    gap: 20px;
+}
+.card-01{
+    width: 290px;
+    height: 470px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 2;
+}
+.card-01 img{
+    width: 290px;
+}
+.card-01 h3{
+    padding: 0 15px;
+    padding-top: 20px;
+}
+.card-01 h5{
+    padding: 0 15px;
+    padding-top: 10px;
+    color: #0D42E3;
+}
+.card-01 p{
+    padding: 0 15px;
+    padding-top: 15px;
+    color: #272727;
+    line-height: 30px;
+}
+.card-01 button{
+    margin:20px 15px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+                                              /* <!-- promote section --> */
+
+.promote-section{
+    display: flex;
+    height: 530px;
+    background-image: linear-gradient(to right,#8F61FA, #1A88FB, #34DBB7);
+    margin-top: 350px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 400px 400px 400px 0px;
+}
+.promote-left{
+    position: relative;
+}
+.promote-left img{
+    position: relative;
+    bottom: 176px;
+}
+#mobile-panal{
+    position: absolute;
+    top: 6140px;
+    left: 197px;
+}
+#panal-logo{
+    position: absolute;
+    top: 6190px;
+    left: 205px;
+}
+.promote-right{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.promote-right h3{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: white;
+}
+.promote-right h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    line-height: 70px;
+}
+.promote-right p{
+    line-height: 32px;
+    padding-top: 30px;
+    color: white;
+}
+.promote-right button{
+    margin-top: 30px;
+    padding: 14px 25px;
+    border-radius: 300px;
+    border: none;
+    cursor: pointer;
+}
+                                         /* <!-- abouut us testimonal section --> */
+.testimonial{
+    padding-bottom: 50px;
+}
+.testimonial-heading{
+    text-align: center;
+    padding-top: 90px;
+}
+.testimonial-heading h3{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.testimonial-heading h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #0D42E3;
+    line-height: 70px;
+}
+.testimonal-card{
+    display: flex;
+    justify-content: space-around;
+}
+.testmonal-1{
+    position: relative;
+    flex-direction: column;
+    width: 480px;
+    height: 355px;
+    padding: 0 30px;
+    border-radius: 30px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+.testmonal-2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    line-height: 32px;
+    width: 480px;
+    height: 355px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right,#8F61FA, #1A88FB, #34DBB7);
+}
+.testmonal-1 h3{
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    color: #0D42E3;
+}
+.testmonal-2 h3{
+    position: relative;
+    top: 20px;
+}
+#tesm-1{
+    position: relative;
+    bottom: 440px;
+    left: 1340px;
+    border: 10px solid #F5F5F5;
+    border-radius: 50%;
+}
+#tesm-2{
+    position: relative;
+    bottom: 450px;
+    border: 10px solid #2386f0;
+    border-radius: 50%;
+    left: 660px;
+}
+#tesm-3{
+    position: relative;
+    bottom: 440px;
+    left: 5px;
+    border: 10px solid #F5F5F5;
+    border-radius: 50%;
+}
+#tesm-vector-img-1{
+    position: relative;
+    bottom: 160px;
+    left: 110px;
+}
+#tesm-vector-img-2{
+    position: relative;
+    bottom: 160px;
+    left: 580px;
+}
+#tesm-vector-img-3{
+    position: relative;
+    bottom: 160px;
+    left: 1050px;
+}
+/* <!-- footer --> */
+.footer{
+    height: 480px;
+    background-color:#F5F5F5;
+}
+.dev-1{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    margin: 0 10%;
+    border-radius: 600px;
+    background-color: white;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    bottom: 80px;
+}
+.dev-1 .left h2{
+    font-size: 32px;
+    font-weight: 700;
+    color:#0D42E3;
+    padding-left: 80px;
+    text-transform: uppercase;
+}
+.dev-1 .left p{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.dev-1 .right{
+    display: flex;
+}
+.dev-1 .right img{
+    width: 29px;
+    height: 27px;
+    position: relative;
+    right: 30px;
+    top: 3px;
+}
+.dev-1 .right input{
+    margin-left: 300px;
+    width: 400px;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.dev-1 .right input:focus{
+    outline: none;
+}
+#footer-h3{
+    padding-left: 420px;
+    margin-bottom: 0px;
+    color: #0D42E3;
+}
+.dev2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.dev2-part1-logo img{
+    width: 130px;
+}
+.dev2-part2-footer-links{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.dev2-part2-footer-links li{
+    padding-top: 25px;
+    list-style-type: none;
+}
+.dev2-part3-contact h3{
+    padding-bottom: 20px;
+    color: #0D42E3;
+}
+.dev2-part3-contact p{
+    padding-bottom: 20px;
+}
+.dev2-part3-contact h4{
+    padding-bottom: 20px;
+    color: #0D42E3;
+}
+.dev2-part3-contact img{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.card {
+    width: 300px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0 0 8px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #666;
+    margin: 0 0 16px;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
